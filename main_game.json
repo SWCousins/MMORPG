@@ -1,0 +1,66 @@
+{
+    maps: 
+    {
+        001: {
+            
+            map: 
+            [
+                [0,0,0,0,0,0,0,0,0,0],
+                [0,1,1,1,1,1,1,0,0,0],
+                [0,1,0,0,0,0,1,0,0,0],
+                [0,1,0,0,0,0,1,0,0,0],
+                [0,1,1,1,0,1,1,0,0,0],
+                [0,0,0,0,0,0,0,0,0,0],
+            ],
+            
+            north: 003,
+            south: 005,
+            east: 004,
+            west: 002,
+        },
+        
+        002: {...},
+        
+        003: {...},
+        
+        004: {...},
+    },
+              
+    users: 
+    {
+        001: {
+            userName: 'Frisco',
+            userId: 001,
+            charClass: 'warrior',
+            strength: 10,
+            HP: 100,
+            items: 
+            [
+                {
+                    name: 'Short Sword',
+                    id: '1a938d839c03a',
+                    type: ['melee', 'attack'],
+                    attack: 4,
+                    speed: 7,
+                    bonus: ['Goblin Slayer']
+                }
+            ],
+            acheivements: 
+            [
+                {
+                    id: '1a938d839c03a',
+                    name: 'Goblin Slayer',
+                    description: 'Adds +1 to attack of a melee weapon'
+                }
+            ]
+        },
+        
+        002: {...},
+         
+        003: {...},
+        
+        004: {...}
+    },
+              
+    
+}
